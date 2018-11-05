@@ -1,6 +1,15 @@
 # infrastructure-deploy
 
-Propose of project -> TBD
+The idea of the project is to create full-stack exampleproject to share with community knowledge and vision how can be CI infrastructure be developt (from scratch) for medium/big size open/closed/hybrid source projects.
+
+Our vision of good CI-infrastructure or the values of our project:
+- Invest now to have provit in the long-term
+- Infrastructure as a service
+- Flexibility to change
+- Easy to support
+- Modularity of infrastructure. Each part of our CI-project can be changed with another "block" with no ir minimal investment.
+- Python as one and only language
+- Maximum re-use of public supported tools and frameworks
 
 
 ## Table of analyzed and used software
