@@ -169,3 +169,10 @@ sudo pip3 install buildbot==1.4 buildbot-console-view==1.4 buildbot-www==1.4
 sudo pip3 install buildbot-worker==1.4
 sudo pip3 install gitpython==2.1.5 tenacity==4.5.0 txrequests txgithub service_identity
 ```
+
+## Credits
+Big thanks for the ideas, support and inpiration to:
+- Alexander Zhogov
+- Oleg Makarov
+- Eugeny Ponomarev
+- Dmitry Lobanov
