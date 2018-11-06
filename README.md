@@ -43,7 +43,7 @@ Our vision of good CI-infrastructure or the values of our project:
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky" rowspan="4">Virtualization</td>
+    <td class="tg-0pky" rowspan="7">Virtualization</td>
     <td class="tg-fymr"><b>QEMU</b></td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
