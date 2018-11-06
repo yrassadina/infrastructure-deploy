@@ -58,6 +58,26 @@ Our vision of good CI-infrastructure or the values of our project:
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
   </tr>
+    <tr>
+    <td class="tg-0pky">Open VZ</td>
+    <td class="tg-0pky">for Linux; effective reourses consumption</td>
+    <td class="tg-0pky"></td>
+  </tr>
+    <tr>
+    <td class="tg-0pky">KVM</td>
+    <td class="tg-0pky">Win/Lin; effective and usefull</td>
+    <td class="tg-0pky"></td>
+  </tr>
+    <tr>
+    <td class="tg-0pky">Xen</td>
+    <td class="tg-0pky">Win/Lin, good optimization, open source;</td>
+    <td class="tg-0pky"></td>
+  </tr>
+    <tr>
+    <td class="tg-0pky">LXC</td>
+    <td class="tg-0pky">Linux, very effective in small builds</td>
+    <td class="tg-0pky"></td>
+  </tr>
   <tr>
     <td class="tg-0pky">?</td>
     <td class="tg-0pky"></td>
