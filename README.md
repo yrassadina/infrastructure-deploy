@@ -129,13 +129,13 @@ Our vision of good CI-infrastructure or the values of our project:
   <tr>
     <td class="tg-0pky" rowspan="2">Monitoring</td>
     <td class="tg-fymr"><b>Zabbix</b></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">supported easy to understand, SNMP, agents </td>
+    <td class="tg-0pky">1 database, web ui can not be expanded</td>
   </tr>
   <tr>
-    <td class="tg-0pky">?</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">Icinga 2</td>
+    <td class="tg-0pky">compatible with Nagios, easy to integrate, parallel processes.</td>
+    <td class="tg-0pky">have to develope modules, hard to understand, complex for small systems.</td>
   </tr>
   <tr>
     <td class="tg-0pky">Build System</td>
