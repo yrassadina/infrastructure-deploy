@@ -23,7 +23,7 @@ Our vision of good CI-infrastructure or the values of our project:
   </tr>
   <tr>
     <td class="tg-0pky" rowspan="4">CI</td>
-    <td class="tg-fymr">Buildbot</td>
+    <td class="tg-fymr"><b>Buildbot</b></td>
     <td class="tg-0pky">+More freedom and ower<br>+No UI to configure<br>-Higher costs at the start<br>-No sub-service to collect artifacts</td>
     <td class="tg-0pky"></td>
   </tr>
@@ -44,7 +44,7 @@ Our vision of good CI-infrastructure or the values of our project:
   </tr>
   <tr>
     <td class="tg-0pky" rowspan="4">Virtualization</td>
-    <td class="tg-fymr">QEMU</td>
+    <td class="tg-fymr"><b>QEMU</b></td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
   </tr>
@@ -65,7 +65,7 @@ Our vision of good CI-infrastructure or the values of our project:
   </tr>
   <tr>
     <td class="tg-0pky" rowspan="2">Provisioning<br>(?)</td>
-    <td class="tg-fymr">Ansible</td>
+    <td class="tg-fymr"><b>Ansible</b></td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
   </tr>
@@ -75,8 +75,8 @@ Our vision of good CI-infrastructure or the values of our project:
     <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0pky" rowspan="4">"Fontend"<br>(repository,<br>issues tracker,<br>communication,<br>review,<br>collaboration)</td>
-    <td class="tg-fymr">GitHub</td>
+    <td class="tg-0pky" rowspan="4">"Frontend"<br>(repository, issues tracker,<br>communication, review,<br>collaboration)</td>
+    <td class="tg-fymr"><b>GitHub</b></td>
     <td class="tg-0pky">+Standart de-facto</td>
     <td class="tg-0pky"></td>
   </tr>
@@ -97,7 +97,7 @@ Our vision of good CI-infrastructure or the values of our project:
   </tr>
   <tr>
     <td class="tg-0pky" rowspan="2">Web Server</td>
-    <td class="tg-fymr">nginx</td>
+    <td class="tg-fymr"><b>nginx</b></td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky">Will be used for artifacts sharing</td>
   </tr>
@@ -108,7 +108,7 @@ Our vision of good CI-infrastructure or the values of our project:
   </tr>
   <tr>
     <td class="tg-0pky" rowspan="2">Monitoring</td>
-    <td class="tg-fymr">Zabbix</td>
+    <td class="tg-fymr"><b>Zabbix</b></td>
     <td class="tg-0pky"></td>
     <td class="tg-0pky"></td>
   </tr>
