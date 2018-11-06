@@ -56,27 +56,27 @@ Our vision of good CI-infrastructure or the values of our project:
   <tr>
     <td class="tg-0pky">VMWare</td>
     <td class="tg-0pky">easy to build</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">High cost</td>
   </tr>
     <tr>
     <td class="tg-0pky">Open VZ</td>
     <td class="tg-0pky">for Linux; effective reourses consumption</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">only for linux</td>
   </tr>
     <tr>
     <td class="tg-0pky">KVM</td>
     <td class="tg-0pky">Win/Lin; effective and usefull</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">knowledges about Unix systems required</td>
   </tr>
     <tr>
     <td class="tg-0pky">Xen</td>
     <td class="tg-0pky">Win/Lin, good optimization, open source;</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">for not free OS</td>
   </tr>
     <tr>
     <td class="tg-0pky">LXC</td>
     <td class="tg-0pky">Linux, very effective in small builds</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">not for windows</td>
   </tr>
   <tr>
     <td class="tg-0pky">?</td>
