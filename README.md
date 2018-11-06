@@ -55,7 +55,7 @@ Our vision of good CI-infrastructure or the values of our project:
   </tr>
   <tr>
     <td class="tg-0pky">VMWare</td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">easy to build</td>
     <td class="tg-0pky"></td>
   </tr>
     <tr>
