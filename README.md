@@ -106,12 +106,12 @@ Our vision of good CI-infrastructure or the values of our project:
 <tr>
 <td class="tg-0pky" rowspan="2">Provisioning</td>
 <td class="tg-fymr"><strong>Ansible</strong></td>
-<td class="tg-0pky">&nbsp;</td>
-<td class="tg-0pky">&nbsp;</td>
-<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">plus plus</td>
+<td class="tg-0pky">minus minus</td>
+<td class="tg-0pky">comment</td>
 </tr>
 <tr>
-<td class="tg-0pky">?</td>
+<td class="tg-0pky">Chef</td>
 <td class="tg-0pky">&nbsp;</td>
 <td class="tg-0pky">&nbsp;</td>
 <td class="tg-0pky">&nbsp;</td>
