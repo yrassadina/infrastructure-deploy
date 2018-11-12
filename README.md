@@ -15,154 +15,194 @@ Our vision of good CI-infrastructure or the values of our project:
 ## Table of analyzed and used software
 
 <table class="tg">
-  <tr>
-    <th class="tg-0pky">Domain</th>
-    <th class="tg-0pky">Product</th>
-    <th class="tg-0pky">Pros&amp;Cons</th>
-    <th class="tg-0pky">Comment</th>
-  </tr>
-  <tr>
-    <td class="tg-0pky" rowspan="4">CI</td>
-    <td class="tg-fymr"><b>Buildbot</b></td>
-    <td class="tg-0pky">+More freedom and ower<br>+No UI to configure<br>-Higher costs at the start<br>-No sub-service to collect artifacts</td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">TeamCity</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Jenkins</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Travis CI</td>
-    <td class="tg-0pky">+Free for Open Source<br>+Is a service<br>-Only for Github</td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky" rowspan="7">Virtualization</td>
-    <td class="tg-fymr"><b>QEMU</b></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Docker</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">VMWare</td>
-    <td class="tg-0pky">easy to build</td>
-    <td class="tg-0pky">High cost</td>
-  </tr>
-    <tr>
-    <td class="tg-0pky">Open VZ</td>
-    <td class="tg-0pky">for Linux; effective reourses consumption</td>
-    <td class="tg-0pky">only for linux</td>
-  </tr>
-    <tr>
-    <td class="tg-0pky">KVM</td>
-    <td class="tg-0pky">Win/Lin; effective and usefull</td>
-    <td class="tg-0pky">knowledges about Unix systems required</td>
-  </tr>
-    <tr>
-    <td class="tg-0pky">Xen</td>
-    <td class="tg-0pky">Win/Lin, good optimization, open source;</td>
-    <td class="tg-0pky">for not free OS</td>
-  </tr>
-    <tr>
-    <td class="tg-0pky">LXC</td>
-    <td class="tg-0pky">Linux, very effective in small builds</td>
-    <td class="tg-0pky">not for windows</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">?</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky" rowspan="2">Provisioning<br>(?)</td>
-    <td class="tg-fymr"><b>Ansible</b></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">?</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky" rowspan="4">"Frontend"<br>(repository, issues tracker,<br>communication, review,<br>collaboration)</td>
-    <td class="tg-fymr"><b>GitHub</b></td>
-    <td class="tg-0pky">+Standart de-facto</td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Gitlab</td>
-    <td class="tg-0pky">+More features as in Github</td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Gerrit + Jira</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">?</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky" rowspan="2">Web Server</td>
-    <td class="tg-fymr"><b>nginx</b></td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky">Will be used for artifacts sharing</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Apache</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky" rowspan="2">Monitoring</td>
-    <td class="tg-fymr"><b>Zabbix</b></td>
-    <td class="tg-0pky">supported easy to understand, SNMP, agents </td>
-    <td class="tg-0pky">1 database, web ui can not be expanded</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Icinga 2</td>
-    <td class="tg-0pky">compatible with Nagios, easy to integrate, parallel processes.</td>
-    <td class="tg-0pky">have to develope modules, hard to understand, complex for small systems.</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Build System</td>
-    <td class="tg-0pky">?</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky" rowspan="3">Test System</td>
-    <td class="tg-fymr">Robot Framework</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Self-written ?</td>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">?</td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-  </tr>
+<tbody>
+<tr>
+<th class="tg-0pky">Domain</th>
+<th class="tg-0pky">Product</th>
+<th class="tg-0pky">Pros</th>
+<th class="tg-0pky">Cons</th>
+<th class="tg-0pky">Comment</th>
+</tr>
+<tr>
+<td class="tg-0pky" rowspan="4">CI</td>
+<td class="tg-fymr"><strong>Buildbot</strong></td>
+<td class="tg-0pky">More freedom and power<br />No UI to configure</td>
+<td class="tg-0pky">Higher costs at the start<br />No sub-service to collect artifacts</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0pky">TeamCity</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0pky">Jenkins</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0pky">Travis CI</td>
+<td class="tg-0pky">Free for Open Source<br />Is a service<br /><br /></td>
+<td class="tg-0pky">&nbsp;Only for Github</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0pky" rowspan="7">Virtualization</td>
+<td class="tg-fymr"><strong>QEMU</strong></td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0pky">Docker</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0pky">VMWare</td>
+<td class="tg-0pky">Easy to use</td>
+<td class="tg-0pky">High cost</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0pky">Open VZ</td>
+<td class="tg-0pky">
+<p>Effective resource management</p>
+</td>
+<td class="tg-0pky">Only for linux</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0pky">KVM</td>
+<td class="tg-0pky">
+<p>Win/Lin</p>
+<p>Effective and usefull</p>
+</td>
+<td class="tg-0pky">Need knowledge about Unix systems</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0pky">Xen</td>
+<td class="tg-0pky">
+<p>Win/Lin</p>
+<p>Good optimization</p>
+<p>Open source</p>
+</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0pky">LXC</td>
+<td class="tg-0pky">
+<p>Linux</p>
+<p>Very effective in small builds</p>
+</td>
+<td class="tg-0pky">Not for Windows</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0pky" rowspan="2">Provisioning</td>
+<td class="tg-fymr"><strong>Ansible</strong></td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0pky">?</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0pky" rowspan="4">"Frontend"<br />(repository, issues tracker,<br />communication, review,<br />collaboration)</td>
+<td class="tg-fymr"><strong>GitHub</strong></td>
+<td class="tg-0pky">Standart de-facto</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0pky">Gitlab</td>
+<td class="tg-0pky">More features as in Github</td>
+<td class="tg-0pky">On Windows does not use pure Windows env (Cygwin)</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0pky">Gerrit + Jira</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0pky">?</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0pky" rowspan="2">Web Server</td>
+<td class="tg-fymr"><strong>nginx</strong></td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">Will be used for artifacts sharing</td>
+</tr>
+<tr>
+<td class="tg-0pky">Apache</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0pky" rowspan="2">Monitoring</td>
+<td class="tg-fymr"><strong>Zabbix</strong></td>
+<td class="tg-0pky">
+<p>Community supported</p>
+<p>Easy to understand</p>
+<p>SNMP</p>
+<p>Agents</p>
+</td>
+<td class="tg-0pky">
+<p>1 database</p>
+<p>Web UI can not be expanded</p>
+</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0pky">Icinga 2</td>
+<td class="tg-0pky">compatible with Nagios, easy to integrate, parallel processes.</td>
+<td class="tg-0pky">have to develope modules, hard to understand, complex for small systems.</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0pky">Build System</td>
+<td class="tg-0pky">?</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0pky" rowspan="3">Test System</td>
+<td class="tg-fymr">Robot Framework</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0pky">Self-written</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+<td class="tg-0pky">&nbsp;</td>
+</tr>
+<tr>
+<td class="tg-0lax">?</td>
+<td class="tg-0lax">&nbsp;</td>
+<td class="tg-0lax">&nbsp;</td>
+<td class="tg-0lax">&nbsp;</td>
+</tr>
+</tbody>
 </table>
-
-
-
 
 
 ## On Ubuntu 18.04
